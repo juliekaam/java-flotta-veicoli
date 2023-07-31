@@ -7,7 +7,8 @@ public class Automobiles extends Vehicles {
 
         private int numberOfDoor;
 
-        public Automobiles(String plate, String matriculation) {
+        public Automobiles(String plate, String matriculation,int numberOfDoor) {
                 super(plate, matriculation);
+                this.numberOfDoor=numberOfDoor;
         }
 }

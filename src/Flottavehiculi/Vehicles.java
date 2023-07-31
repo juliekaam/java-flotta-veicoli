@@ -1,5 +1,7 @@
 package Flottavehiculi;
 
+import java.util.ArrayList;
+
 public class Vehicles {
   private String plate;
     private String  matriculation;
@@ -9,6 +11,7 @@ public class Vehicles {
         this.matriculation = matriculation;
     }
 
+
     public String getPlate() {
         return plate;
     }
@@ -16,4 +19,6 @@ public class Vehicles {
     public String getMatriculation() {
         return matriculation;
     }
+
+
 }
